@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #129799;
+}
+a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.header-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;  
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.header-list-item{
+    cursor: pointer;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.header-list-item:hover{
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.header-logo{
+    display: flex;  
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 20px 0;
+}
+.header-logo-img{
+    width: 400px;
+}
+.header-logo-title{
+    color: white;
+    padding-top: 20px;
+    font-size: 4rem;
+    margin-bottom: 38px;
+}
+.header-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 25vw;  
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+.header-list-menu{
+    cursor: pointer;
+    color: white;
+    margin: 0 15px;
+}
+.header-list-menu:hover{
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+main{
+    background-color: #ffa185;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-box-aquarela{
+    margin-top: 2rem;
+}
+.main-box-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50rem;
+}
+.main-title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.main-paragraph{
+    font-size: 20px;
+}
+.main-box-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85rem;   
+}
+.main-img{
+    width: 600px;
+    margin: 15px;
+    cursor: pointer;
+}
+.main-box-bt{
+    height: 2rem;
+    margin: 2rem 0;
+}
+.main-bt-seemore{
+    text-align: center; 
+    cursor: pointer;
+}
+.main-bt-seemore:hover{
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+.footer-contats{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+.footer-social{
+    margin-left: 5rem;
+}
+.footer-img{
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.footer-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 15vw;  
+    margin-right: 5rem;
+    text-decoration: none;
+}
+.footer-list-item{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-list-item:hover{
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    
+}
